@@ -14,8 +14,8 @@ This is the solution of automation api part
 * TestNG
 
 ### The main pre installations needed in the project:
-Java 11 or 15
-Inteliji
+* Java 11 or 15
+* Inteliji
 
 
 ### How to run the project main test cases locally:
