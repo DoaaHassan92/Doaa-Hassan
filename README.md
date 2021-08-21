@@ -1,14 +1,14 @@
 # Automation-API
 This is the solution of automation api part
 
-#Tests explanations:
-First I add a test to get all products and validate response time, response status  code, response schema and headers
+# Tests explanations:
+1. First I add a test to get all products and validate response time, response status  code, response schema and headers
 2.  Test to create a new product and validate response time, response status  code, response schema then I get the Id of the created prodcut
 3. Test to get product by Id and pass the Id from create product request to the path parameter of the get request and again validate response time, response status  code, response schema 
 4. Test to update a created product name and validate response time, response status  code, response schema then I get the Id of the updated prodcut
-3. Test to get product by Id after update and pass the Id from create product request to the path parameter of the get request and again validate response time, response status  code, response schema 
-. Test to delete a created product and validate response time, response status  code,  then I get the Id of the updated prodcut
-3. Test to get product by Id after deleting it to make sure it's deleted by passing the Id from delete product request to the path parameter of the get request and again validate this product is not found
+5. Test to get product by Id after update and pass the Id from create product request to the path parameter of the get request and again validate response time, response status  code, response schema 
+6. Test to delete a created product and validate response time, response status  code,  then I get the Id of the updated prodcut
+7. Test to get product by Id after deleting it to make sure it's deleted by passing the Id from delete product request to the path parameter of the get request and again validate this product is not found
 ### The main Frameworks included in the project:
 * Rest-Assured
 * TestNG
