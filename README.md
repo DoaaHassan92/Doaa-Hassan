@@ -16,6 +16,7 @@ This is the solution of automation api part
 
 ### The main pre installations needed in the project:
 * Java 11 or 15
+* Maven 3.6.3
 * Inteliji
 
 
